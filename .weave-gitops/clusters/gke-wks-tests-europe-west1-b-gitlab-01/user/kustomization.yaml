@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+metadata:
+  name: gke-wks-tests-europe-west1-b-gitlab-01
+  namespace: wego-system
+resources:
+- ../../../apps/podinfo
